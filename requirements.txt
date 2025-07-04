@@ -1,0 +1,3 @@
+livekit>=0.19.1
+livekit-agents>=0.12.12
+livekit-plugins-openai>=0.10.17,<1.0.0
