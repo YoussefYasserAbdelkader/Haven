@@ -1,12 +1,10 @@
-# Ignore the local virtual environment
-ai/
-__pycache__/
+# Ignore Python virtual environments
+ai/Lib/
+ai/pyvenv.cfg
+ai/Scripts/
+ai/include/
+ai/Lib/site-packages/
 
-# Ignore Python cache and logs
-*.pyc
-*.pyo
-*.log
-
-# Ignore system files
-Thumbs.db
-.DS_Store
+# Optional: ignore virtualenv folders anywhere
+**/venv/
+**/.venv/
