@@ -8,3 +8,4 @@ ai/Lib/site-packages/
 # Optional: ignore virtualenv folders anywhere
 **/venv/
 **/.venv/
+.env
