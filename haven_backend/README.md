@@ -46,20 +46,29 @@ cd haven-therapy
 
 ### 2. Environment Setup
 
-Create a `.env` file in both the backend and frontend folders.
+Create a `.env` file in both the backend folder.
+🛑 Copy .env.example to .env and fill in your own credentials before running the app.
 
 #### `.env` (backend):
 
 ```env
-LIVEKIT_URL=wss://your-livekit-url.livekit.cloud
-LIVEKIT_API_KEY=your_livekit_api_key
-LIVEKIT_API_SECRET=your_livekit_api_secret
+# LiveKit credentials
+LIVEKIT_URL="wss://your-livekit-url.livekit.cloud"
+LIVEKIT_API_KEY="your_livekit_api_key"
+LIVEKIT_API_SECRET="your_livekit_api_secret"
 
-LM_API_URL=http://localhost:11434/v1  # Ollama running Nous Hermes 2
+# Optional: OpenAI or Claude (Anthropic) API keys (if not using local models)
+OPENAI_API_KEY=""
+ANTHROPIC_API_KEY=""
 
-SPOTIPY_CLIENT_ID=your_spotify_client_id
-SPOTIPY_CLIENT_SECRET=your_spotify_client_secret
-SPOTIPY_REDIRECT_URI=http://localhost:8888/callback
+# Local Model API (e.g., Ollama running Nous Hermes 2)
+LM_API_URL="http://localhost:11434/v1"
+
+# Spotify OAuth credentials
+SPOTIPY_CLIENT_ID="your_spotify_client_id"
+SPOTIPY_CLIENT_SECRET="your_spotify_client_secret"
+SPOTIPY_REDIRECT_URI="http://localhost:8888/callback"
+
 ```
 
 ---
