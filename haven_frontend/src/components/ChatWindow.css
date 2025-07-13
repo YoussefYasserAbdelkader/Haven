@@ -1,0 +1,30 @@
+.chat-window {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f2f5;
+}
+
+.message {
+  max-width: 75%;
+  padding: 10px 14px;
+  margin: 8px 0;
+  border-radius: 8px;
+  line-height: 1.4;
+  font-size: 0.95em;
+  word-wrap: break-word;
+}
+
+.message.user {
+  align-self: flex-end;
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.message.assistant {
+  align-self: flex-start;
+  background-color: #e2e3e5;
+  color: #383d41;
+}
