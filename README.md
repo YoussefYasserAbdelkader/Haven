@@ -48,7 +48,7 @@ cd haven-therapy
 
 ### 2. Environment Setup
 
-Create a `.env` file in both the backend folder.
+Create a `.env` file in the backend folder.
 🛑 Copy .env.example to .env and fill in your own credentials before running the app.
 
 #### `.env` (backend):
