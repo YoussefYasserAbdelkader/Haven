@@ -1,0 +1,12 @@
+# Ignore the local virtual environment
+ai/
+__pycache__/
+
+# Ignore Python cache and logs
+*.pyc
+*.pyo
+*.log
+
+# Ignore system files
+Thumbs.db
+.DS_Store
