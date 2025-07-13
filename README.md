@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/haven.png" alt="Haven Logo" height="800 width=800"/>
+  <img src="haven.png" alt="Haven Logo" height="800 width=800"/>
 </p>
 
 ---
